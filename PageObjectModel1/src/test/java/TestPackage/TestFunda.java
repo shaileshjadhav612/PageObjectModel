@@ -22,11 +22,11 @@ public class TestFunda extends LoginPage{
 	
 	
 
-	
+//	
 //	@BeforeMethod
 //	public void Property()
 //	{
-//		//System.setProperty("webdriver.chrome.driver", ".//MyDrivers//chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", ".//MyDrivers//chromedriver.exe");
 //		driver=new ChromeDriver();
 //	
 //			  
@@ -36,7 +36,7 @@ public class TestFunda extends LoginPage{
 //		
 	@BeforeMethod
 		@Parameters(value={"browser"})
-//		@Parameters(value="browser")
+
 		 public void login(String browser)
 		  {
 			  System.out.println("************"+browser);
@@ -56,7 +56,7 @@ public class TestFunda extends LoginPage{
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=0)
 	public void Funda() throws InterruptedException, IOException
 	{
 		
@@ -83,12 +83,14 @@ public class TestFunda extends LoginPage{
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	
 		File Dest =new File("D:\\screenshot\\q.png");
-		FileUtils.copyFile(scrFile, Dest);
+		FileUtils.copyFile(scrFile, Dest);   System.out.println("**************Test1");
+		
 		
 	}
 	@Test(priority=1)
 	public void print()
 	{
+		System.out.println("**************Test2");
 		driver.get("https://www.toolsqa.com/automation-practice-form/");
 		//System.out.println("*************");
 	}

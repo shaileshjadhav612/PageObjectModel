@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-24T09:52:26Z" name="Suite" finished-at="2019-06-24T09:53:22Z" duration-ms="55877">
+  <suite started-at="2019-06-25T11:20:10Z" name="Suite" finished-at="2019-06-25T11:20:40Z" duration-ms="30027">
     <groups>
     </groups>
-    <test started-at="2019-06-24T09:52:26Z" name="FirefoxTest" finished-at="2019-06-24T09:52:56Z" duration-ms="30260">
+    <test started-at="2019-06-25T11:20:10Z" name="FirefoxTest" finished-at="2019-06-25T11:20:40Z" duration-ms="30027">
       <class name="TestPackage.TestFunda">
-        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.TestFunda@7494f96a]" started-at="2019-06-24T09:52:26Z" name="login" finished-at="2019-06-24T09:52:30Z" duration-ms="4357" status="PASS">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.TestFunda@4a668b6e]" started-at="2019-06-25T11:20:10Z" name="login" finished-at="2019-06-25T11:20:14Z" duration-ms="3735" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,76 +18,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="print()[pri:1, instance:TestPackage.TestFunda@7494f96a]" started-at="2019-06-24T09:52:30Z" name="print" finished-at="2019-06-24T09:52:36Z" duration-ms="5722" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- print -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestPackage.TestFunda@7494f96a]" started-at="2019-06-24T09:52:36Z" name="quitBrowser" finished-at="2019-06-24T09:52:37Z" duration-ms="1218" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
-        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.TestFunda@7494f96a]" started-at="2019-06-24T09:52:37Z" name="login" finished-at="2019-06-24T09:52:40Z" duration-ms="3333" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="Funda()[pri:2, instance:TestPackage.TestFunda@7494f96a]" started-at="2019-06-24T09:52:40Z" name="Funda" finished-at="2019-06-24T09:52:55Z" duration-ms="14343" status="PASS">
+        <test-method signature="Funda()[pri:0, instance:TestPackage.TestFunda@4a668b6e]" started-at="2019-06-25T11:20:14Z" name="Funda" finished-at="2019-06-25T11:20:27Z" duration-ms="13495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Funda -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestPackage.TestFunda@7494f96a]" started-at="2019-06-24T09:52:55Z" name="quitBrowser" finished-at="2019-06-24T09:52:56Z" duration-ms="1259" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestPackage.TestFunda@4a668b6e]" started-at="2019-06-25T11:20:27Z" name="quitBrowser" finished-at="2019-06-25T11:20:30Z" duration-ms="2149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.TestFunda@4a668b6e]" started-at="2019-06-25T11:20:30Z" name="login" finished-at="2019-06-25T11:20:33Z" duration-ms="3858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="print()[pri:1, instance:TestPackage.TestFunda@4a668b6e]" started-at="2019-06-25T11:20:33Z" name="print" finished-at="2019-06-25T11:20:39Z" duration-ms="5433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestPackage.TestFunda@4a668b6e]" started-at="2019-06-25T11:20:39Z" name="quitBrowser" finished-at="2019-06-25T11:20:40Z" duration-ms="1341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- TestPackage.TestFunda -->
     </test> <!-- FirefoxTest -->
-    <test started-at="2019-06-24T09:52:56Z" name="ChromeTest" finished-at="2019-06-24T09:53:22Z" duration-ms="25578">
-      <class name="TestPackage.TestFunda">
-        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.TestFunda@6a2b953e]" started-at="2019-06-24T09:52:56Z" name="login" finished-at="2019-06-24T09:53:00Z" duration-ms="3814" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="print()[pri:1, instance:TestPackage.TestFunda@6a2b953e]" started-at="2019-06-24T09:53:00Z" name="print" finished-at="2019-06-24T09:53:03Z" duration-ms="3335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- print -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestPackage.TestFunda@6a2b953e]" started-at="2019-06-24T09:53:03Z" name="quitBrowser" finished-at="2019-06-24T09:53:04Z" duration-ms="662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
-        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:TestPackage.TestFunda@6a2b953e]" started-at="2019-06-24T09:53:04Z" name="login" finished-at="2019-06-24T09:53:07Z" duration-ms="3465" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="Funda()[pri:2, instance:TestPackage.TestFunda@6a2b953e]" started-at="2019-06-24T09:53:07Z" name="Funda" finished-at="2019-06-24T09:53:21Z" duration-ms="13605" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Funda -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:TestPackage.TestFunda@6a2b953e]" started-at="2019-06-24T09:53:21Z" name="quitBrowser" finished-at="2019-06-24T09:53:22Z" duration-ms="694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
-      </class> <!-- TestPackage.TestFunda -->
-    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

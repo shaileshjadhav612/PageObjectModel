@@ -6,8 +6,8 @@
       <class name="TestPackage.TestFunda">
         <methods>
           <include name="Funda"/>
+          <include name="login"/>
           <include name="quitBrowser"/>
-          <include name="Property"/>
           <include name="print"/>
         </methods>
       </class> <!-- TestPackage.TestFunda -->
