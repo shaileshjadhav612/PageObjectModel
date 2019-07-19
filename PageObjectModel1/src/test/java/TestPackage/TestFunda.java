@@ -88,11 +88,14 @@ public class TestFunda extends LoginPage{
 		
 	}
 	@Test(priority=1)
-	public void print()
+	public void print() throws IOException
 	{
 		System.out.println("**************Test2");
 		driver.get("https://www.toolsqa.com/automation-practice-form/");
-		//System.out.println("*************");
+		//Systm.out.println("*************");
+		File srcfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		File destFile =new File ("C:\\screenshotNew\\sr.jpg");
+		FileUtils.copyFile(srcfile, destFile);System.out.println(10+20+"minal");System.out.println("minal"+10+20);
 	}
 	
 		

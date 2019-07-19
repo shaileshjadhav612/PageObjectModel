@@ -19,8 +19,7 @@ public class LoginPage {
 	 @FindBy(name="firstname") 
 	 WebElement Username;
 	 
-	 @FindBy(how=How.XPATH, using="//input[@name='lastname']")
-	 
+	 @FindBy(how=How.XPATH, using="//input[@name='lastname']")	 
 	WebElement Password;
 	 
 	 @FindBy(how = How.NAME, using = "submit")
@@ -36,7 +35,6 @@ public class LoginPage {
 //			PageFactory.initElements(driver, this);
 //		}
 	 
-
 	 
 	 public void setusername(String usre) throws InterruptedException{
 	 
